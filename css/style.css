@@ -1,0 +1,57 @@
+@font-face {
+    font-family: head;
+    src: url(../font/Lato-Bold.ttf);
+  }  
+
+@font-face {
+    font-family: para;
+    src: url(../font/Lato-Regular.ttf);
+  }  
+
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body{
+      margin: 0;
+      padding: 0;
+      background-image:url("/media/bgmain.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+  }
+
+  .box{
+      width: 400px;
+      margin-left: 700px;
+      margin-top: 180px;
+      background-color: #eee;
+      border-radius: 20px;
+      padding: 30px 50px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+
+  
+  @media screen and (max-width: 600px) {
+    .box {
+      width: 60%;
+      margin: 80px;
+    }
+  }
+
+  .box img{
+      height: 60px;
+      width: 80px;
+  }
+
+  h2{
+      font-family: head;
+  }
+
+  p{
+      font-family: para;
+  }
+
