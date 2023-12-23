@@ -17,14 +17,20 @@
             {{ product.name }}
           </a>
         </h3>
-        <p class="mt-1 text-sm text-gray-500">Black</p>
+        <p class="mt-1 text-sm text-red-500">Black</p>
       </div>
     </div>
   </div>
 </template>
 
-<script setup>
-const props = defineProps([data]);
 
-console.log(props.data);
+<script setup>
+const props = defineProps({
+  data: {
+    type: Object,
+    required: true,
+  },
+});
+const { data } = props;
 </script>
+
