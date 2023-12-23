@@ -5,7 +5,7 @@
     >
       <img
         :src="product.thumbnail"
-        alt="Front of men&#039;s Basic Tee in black."
+        :alt="product.name"
         class="h-full w-full object-cover object-center lg:h-full lg:w-full"
       />
     </div>
