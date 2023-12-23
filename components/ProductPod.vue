@@ -12,17 +12,16 @@
     <div class="mt-4 flex justify-between">
       <div>
         <h3 class="text-sm text-gray-700">
-          <a href="#">
+          <NuxtLink :to="`/product/${product.slug}`">
             <span aria-hidden="true" class="absolute inset-0"></span>
             {{ product.name }}
-          </a>
+          </NuxtLink>
         </h3>
-        <p class="mt-1 text-sm text-red-500">Black</p>
+        <p class="mt-1 text-sm text-red-500">{{ product.category.name }}</p>
       </div>
     </div>
   </div>
 </template>
-
 
 <script setup>
 const props = defineProps({
@@ -33,4 +32,3 @@ const props = defineProps({
 });
 const { data } = props;
 </script>
-

@@ -83,48 +83,48 @@
                     </NuxtLink>
                   </li>
                   <li>
-                    <a
-                      href="#"
+                    <NuxtLink
+                      to="/category/monitor"
                       class="text-gray-500 dark:text-gray-400 hover:text-red-600 dark:hover:text-blue-500"
                     >
                       Monitor
-                    </a>
+                    </NuxtLink>
                   </li>
                   <li>
-                    <a
-                      href="#"
+                    <NuxtLink
+                      to="/category/psu"
                       class="text-gray-500 dark:text-gray-400 hover:text-red-600 dark:hover:text-blue-500"
                     >
                       Power Supply
-                    </a>
+                    </NuxtLink>
                   </li>
                   <li>
-                    <a
-                      href="#"
+                    <NuxtLink
+                      to="/category/cooling"
                       class="text-gray-500 dark:text-gray-400 hover:text-red-600 dark:hover:text-blue-500"
                     >
                       Cooling
-                    </a>
+                    </NuxtLink>
                   </li>
                 </ul>
               </div>
               <div class="p-4 pb-0 text-gray-900 md:pb-4 font-bold uppercase">
                 <ul class="space-y-4">
                   <li>
-                    <a
-                      href="#"
+                    <NuxtLink
+                      to="/category/keyboard"
                       class="text-gray-500 dark:text-gray-400 hover:text-red-600 dark:hover:text-blue-500"
                     >
                       Keyboard
-                    </a>
+                    </NuxtLink>
                   </li>
                   <li>
-                    <a
-                      href="#"
+                    <NuxtLink
+                      to="/category/mouse"
                       class="text-gray-500 dark:text-gray-400 hover:text-red-600 dark:hover:text-blue-500"
                     >
                       Mouse
-                    </a>
+                    </NuxtLink>
                   </li>
                 </ul>
               </div>
