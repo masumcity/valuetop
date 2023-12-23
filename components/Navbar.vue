@@ -3,12 +3,9 @@
     <div
       class="flex flex-wrap items-center justify-between container mx-auto px-4 py-8"
     >
-      <a
-        href="https://flowbite.com"
-        class="flex items-center space-x-3 rtl:space-x-reverse"
-      >
+      <NuxtLink to="/" class="flex items-center space-x-3 rtl:space-x-reverse">
         <img src="/logo_w.png" class="h-8" alt="Flowbite Logo" />
-      </a>
+      </NuxtLink>
 
       <div
         class="flex items-center md:order-2 space-x-1 md:space-x-2 rtl:space-x-reverse justify-center"
@@ -78,12 +75,12 @@
                   aria-labelledby="mega-menu-dropdown-button"
                 >
                   <li>
-                    <a
-                      href="#"
+                    <NuxtLink
+                      to="/category/casing"
                       class="text-gray-500 dark:text-gray-400 hover:text-red-600 dark:hover:text-blue-500"
                     >
                       Casing
-                    </a>
+                    </NuxtLink>
                   </li>
                   <li>
                     <a
