@@ -97,10 +97,10 @@
                 {{ data.name }}
               </h2>
 
-              <p
+              <div
                 class="max-w-md mb-8 text-gray-700 dark:text-gray-400"
                 v-html="data.short"
-              ></p>
+              ></div>
             </div>
 
             <div class="flex flex-wrap items-center -mx-4">
