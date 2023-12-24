@@ -141,7 +141,7 @@
   </section>
 
   <!-- Spec Tabs -->
-  <Tab />
+  <Tab :data="data" />
 </template>
 
 <script setup>
