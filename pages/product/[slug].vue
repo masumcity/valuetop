@@ -97,10 +97,10 @@
                 {{ data.name }}
               </h2>
 
-              <div
+              <p
                 class="max-w-md mb-8 text-gray-700 dark:text-gray-400"
                 v-html="data.short"
-              ></div>
+              ></p>
             </div>
 
             <div class="flex flex-wrap items-center -mx-4">
@@ -152,7 +152,7 @@
             aria-controls="dashboard"
             aria-selected="false"
           >
-            Video
+            Specification
           </button>
         </li>
         <li class="me-2" role="presentation">
@@ -178,7 +178,7 @@
             aria-controls="contacts"
             aria-selected="false"
           >
-            Specification
+            Video
           </button>
         </li>
       </ul>
@@ -190,14 +190,10 @@
         role="tabpanel"
         aria-labelledby="profile-tab"
       >
-        <p class="text-sm text-gray-500 dark:text-gray-400">
-          This is some placeholder content the
-          <strong class="font-medium text-gray-800 dark:text-white"
-            >Profile tab's associated content</strong
-          >. Clicking another tab will toggle the visibility of this one for the
-          next. The tab JavaScript swaps classes to control the content
-          visibility and styling.
-        </p>
+        <p
+          class="text-sm text-gray-500 dark:text-gray-400"
+          v-html="data.details"
+        ></p>
       </div>
       <div
         class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800 container mx-auto"
@@ -205,14 +201,10 @@
         role="tabpanel"
         aria-labelledby="dashboard-tab"
       >
-        <p class="text-sm text-gray-500 dark:text-gray-400">
-          This is some placeholder content the
-          <strong class="font-medium text-gray-800 dark:text-white"
-            >Dashboard tab's associated content</strong
-          >. Clicking another tab will toggle the visibility of this one for the
-          next. The tab JavaScript swaps classes to control the content
-          visibility and styling.
-        </p>
+        <p
+          class="text-sm text-gray-500 dark:text-gray-400"
+          v-html="data.specification"
+        ></p>
       </div>
       <div
         class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800 container mx-auto"
@@ -221,12 +213,7 @@
         aria-labelledby="settings-tab"
       >
         <p class="text-sm text-gray-500 dark:text-gray-400">
-          This is some placeholder content the
-          <strong class="font-medium text-gray-800 dark:text-white"
-            >Settings tab's associated content</strong
-          >. Clicking another tab will toggle the visibility of this one for the
-          next. The tab JavaScript swaps classes to control the content
-          visibility and styling.
+          {{ data.datasheet.src }}
         </p>
       </div>
       <div
