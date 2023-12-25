@@ -18,7 +18,7 @@
         <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
           <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
             <svg
-              width="90x"
+              width="90px"
               height="90px"
               viewBox="0 0 1024 1024"
               class="icon mx-auto"

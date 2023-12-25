@@ -8,4 +8,5 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  plugins: [{ src: '~/plugins/vue-easy-lightbox.js', mode: 'client' }]
 })

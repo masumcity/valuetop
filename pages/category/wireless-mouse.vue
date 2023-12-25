@@ -15,6 +15,6 @@
 
 <script setup>
 const { data } = await useFetch(
-  "https://admindash.comcitybd.com/api/brands/Value-Top/100?id[]=20"
+  "https://admindash.comcitybd.com/api/brands/Value-Top/100?id[]=98"
 );
 </script>

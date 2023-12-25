@@ -92,7 +92,7 @@
                   </li>
                   <li>
                     <NuxtLink
-                      to="/category/psu"
+                      to="/category/power-supply"
                       class="text-gray-500 dark:text-gray-400 hover:text-red-600 dark:hover:text-blue-500"
                     >
                       Power Supply
@@ -100,7 +100,7 @@
                   </li>
                   <li>
                     <NuxtLink
-                      to="/category/cooling"
+                      to="/category/cooler-fan"
                       class="text-gray-500 dark:text-gray-400 hover:text-red-600 dark:hover:text-blue-500"
                     >
                       Cooling
@@ -120,10 +120,18 @@
                   </li>
                   <li>
                     <NuxtLink
-                      to="/category/mouse"
+                      to="/category/wired-mouse"
                       class="text-gray-500 dark:text-gray-400 hover:text-red-600 dark:hover:text-blue-500"
                     >
-                      Mouse
+                      Wired Mouse
+                    </NuxtLink>
+                  </li>
+                  <li>
+                    <NuxtLink
+                      to="/category/wireless-mouse"
+                      class="text-gray-500 dark:text-gray-400 hover:text-red-600 dark:hover:text-blue-500"
+                    >
+                      Wireless Mouse
                     </NuxtLink>
                   </li>
                 </ul>
