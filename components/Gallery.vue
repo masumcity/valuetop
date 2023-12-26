@@ -7,14 +7,14 @@
             <img
               alt="gallery"
               class="w-full object-cover h-full object-center block"
-              src="https://dummyimage.com/500x300"
+              src="/argb-banner.jpg"
             />
           </div>
           <div class="md:p-2 p-1 w-1/2">
             <img
               alt="gallery"
               class="w-full object-cover h-full object-center block"
-              src="https://dummyimage.com/501x301"
+              src="/case-banner.jpg"
             />
           </div>
           <div class="md:p-2 p-1 w-full">
@@ -37,14 +37,14 @@
             <img
               alt="gallery"
               class="w-full object-cover h-full object-center block"
-              src="https://dummyimage.com/502x302"
+              src="/monitor-banner.jpg"
             />
           </div>
           <div class="md:p-2 p-1 w-1/2">
             <img
               alt="gallery"
               class="w-full object-cover h-full object-center block"
-              src="https://dummyimage.com/503x303"
+              src="/mouse-banner.jpg"
             />
           </div>
         </div>
