@@ -16,17 +16,13 @@
             <h2 class="mb-6 text-sm font-semibold text-white">Resources</h2>
             <ul class="text-gray-500 dark:text-gray-400 font-medium">
               <li class="mb-4">
-                <a
-                  href="https://flowbite.com/"
-                  class="hover:underline text-white"
-                  >Home</a
+                <NuxtLink to="/" class="hover:underline text-white"
+                  >Home</NuxtLink
                 >
               </li>
               <li>
-                <a
-                  href="https://tailwindcss.com/"
-                  class="hover:underline text-white"
-                  >Company</a
+                <NuxtLink to="/company" class="hover:underline text-white"
+                  >Company</NuxtLink
                 >
               </li>
             </ul>
@@ -36,14 +32,14 @@
             <ul class="text-white font-medium">
               <li class="mb-4">
                 <a
-                  href="https://github.com/themesberg/flowbite"
+                  href="https://www.facebook.com/valuetop.cctl/"
                   class="hover:underline text-white"
                   >Facebook</a
                 >
               </li>
               <li>
                 <a
-                  href="https://discord.gg/4eeurUVvTy"
+                  href="https://www.youtube.com/watch?v=37Sgh5Be09Q&list=PLdpSmkPlA7T9t5p6PPbAzUI-g72mdte2x&ab_channel=ComputerCityTechnologiesLtd."
                   class="hover:underline text-white"
                   >Youtube</a
                 >
@@ -56,13 +52,13 @@
             </h2>
             <ul class="text-white font-medium">
               <li class="mb-4">
-                <a href="#" class="hover:underline text-white"
-                  >Privacy Policy</a
+                <NuxtLink to="/privacy" class="hover:underline text-white"
+                  >Privacy Policy</NuxtLink
                 >
               </li>
               <li>
-                <a href="#" class="hover:underline text-white"
-                  >Terms &amp; Conditions</a
+                <NuxtLink to="/terms" class="hover:underline text-white"
+                  >Terms &amp; Conditions</NuxtLink
                 >
               </li>
             </ul>

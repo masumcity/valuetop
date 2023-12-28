@@ -21,7 +21,7 @@
             <img
               alt="gallery"
               class="w-full h-full object-cover object-center block"
-              src="https://dummyimage.com/600x360"
+              src="/big-monitor-banner.jpg"
             />
           </div>
         </div>
@@ -30,7 +30,7 @@
             <img
               alt="gallery"
               class="w-full h-full object-cover object-center block"
-              src="https://dummyimage.com/601x361"
+              src="/psu-banner.jpg"
             />
           </div>
           <div class="md:p-2 p-1 w-1/2">

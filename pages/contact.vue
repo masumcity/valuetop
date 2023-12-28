@@ -1,6 +1,5 @@
 <template>
   <section class="text-gray-600 body-font relative">
-    <h1 class="text-3xl text-center py-16">Contact</h1>
     <div class="container px-5 py-12 mx-auto flex sm:flex-nowrap flex-wrap">
       <div
         class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative"
@@ -72,6 +71,17 @@
             type="email"
             id="email"
             name="email"
+            class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+          />
+        </div>
+        <div class="relative mb-4">
+          <label for="cell" class="leading-7 text-sm text-gray-600"
+            >Phone Number</label
+          >
+          <input
+            type="text"
+            id="number"
+            name="number"
             class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
           />
         </div>

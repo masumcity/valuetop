@@ -1,107 +1,48 @@
 <template>
-  <section class="text-gray-600 body-font">
-    <div class="py-12 px-5 mx-auto flex flex-wrap">
-      <div class="lg:w-full mx-auto">
+  <div class="container mx-auto py-9 md:py-12 px-4 md:px-6">
+    <div
+      class="flex items-strech justify-center flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 lg:space-x-8"
+    >
+      <div
+        class="flex flex-col md:flex-row items-strech justify-between bg-gray-50 dark:bg-gray-800 py-6 px-6 md:py-12 lg:px-12 md:w-8/12 lg:w-7/12 xl:w-8/12 2xl:w-9/12"
+      >
+        <div class="flex flex-col justify-center md:w-1/2">
+          <h1
+            class="text-3xl lg:text-4xl font-semibold text-gray-800 dark:text-white"
+          >
+            DUAL-CHAMBER
+          </h1>
+          <p class="text-base lg:text-xl text-gray-800 dark:text-white mt-2">
+            MICRO ATX <span class="font-bold">T7</span>
+          </p>
+        </div>
+        <div class="md:w-1/2 mt-8 md:mt-0 flex justify-center md:justify-end">
+          <img src="/T7.png" alt="" class="" />
+        </div>
+      </div>
+      <div
+        class="md:w-4/12 lg:w-5/12 xl:w-4/12 2xl:w-3/12 bg-gray-50 dark:bg-gray-800 py-6 px-6 md:py-0 md:px-4 lg:px-6 flex flex-col justify-center relative"
+      >
+        <div class="flex flex-col justify-center">
+          <h1
+            class="text-3xl lg:text-4xl font-semibold text-gray-800 dark:text-white"
+          >
+            W1298S
+          </h1>
+          <p class="text-base lg:text-xl text-gray-800 dark:text-white">
+            RGB <span class="font-bold">FAN</span>
+          </p>
+        </div>
         <div
-          class="flex flex-wrap w-full bg-gray-100 py-32 px-10 relative mb-4"
+          class="flex justify-end md:absolute md:bottom-4 md:right-4 lg:bottom-0 lg:right-0"
         >
           <img
-            alt="gallery"
-            class="w-full object-cover h-full object-center block opacity-25 absolute inset-0"
-            src="https://dummyimage.com/820x340"
+            src="/W1298S.png"
+            alt=""
+            class="md:w-20 md:h-20 lg:w-full lg:h-full"
           />
-          <div class="text-center relative z-10 w-full">
-            <h2 class="text-2xl text-gray-900 font-medium title-font mb-2">
-              Shooting Stars
-            </h2>
-            <p class="leading-relaxed">
-              Skateboard +1 mustache fixie paleo lumbersexual.
-            </p>
-            <a class="mt-3 text-indigo-500 inline-flex items-center"
-              >Learn More
-              <svg
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                class="w-4 h-4 ml-2"
-                viewBox="0 0 24 24"
-              >
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
-          </div>
-        </div>
-        <div class="flex flex-wrap -mx-2">
-          <div class="px-2 w-1/2">
-            <div
-              class="flex flex-wrap w-full bg-gray-100 sm:py-24 py-16 sm:px-10 px-6 relative"
-            >
-              <img
-                alt="gallery"
-                class="w-full object-cover h-full object-center block opacity-25 absolute inset-0"
-                src="https://dummyimage.com/542x460"
-              />
-              <div class="text-center relative z-10 w-full">
-                <h2 class="text-xl text-gray-900 font-medium title-font mb-2">
-                  Shooting Stars
-                </h2>
-                <p class="leading-relaxed">
-                  Skateboard +1 mustache fixie paleo lumbersexual.
-                </p>
-                <a class="mt-3 text-indigo-500 inline-flex items-center"
-                  >Learn More
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="px-2 w-1/2">
-            <div
-              class="flex flex-wrap w-full bg-gray-100 sm:py-24 py-16 sm:px-10 px-6 relative"
-            >
-              <img
-                alt="gallery"
-                class="w-full object-cover h-full object-center block opacity-25 absolute inset-0"
-                src="https://dummyimage.com/542x420"
-              />
-              <div class="text-center relative z-10 w-full">
-                <h2 class="text-xl text-gray-900 font-medium title-font mb-2">
-                  Shooting Stars
-                </h2>
-                <p class="leading-relaxed">
-                  Skateboard +1 mustache fixie paleo lumbersexual.
-                </p>
-                <a class="mt-3 text-indigo-500 inline-flex items-center"
-                  >Learn More
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
 </template>
