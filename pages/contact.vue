@@ -1,5 +1,6 @@
 <template>
   <div class="bg-gray-200 dark:bg-gray-900 md:pt-16">
+    <Breadcrumb />
     <div class="max-w-screen-xl mx-auto">
       <h1 class="md:text-8xl text-6xl px-6 py-12 text-black dark:text-white">
         Let's Talk.
