@@ -1,11 +1,11 @@
 <template>
   <div id="controls-carousel" class="relative w-full" data-carousel="static">
     <!-- Carousel wrapper -->
-    <div class="relative h-[48rem] overflow-hidden">
+    <div class="relative h-[10rem] md:h-[48rem] overflow-hidden">
       <!-- Item 1 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
         <img
-          src="/slider-1.webp"
+          src="/slider-1.jpg"
           class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
           alt="..."
         />
@@ -13,7 +13,7 @@
       <!-- Item 2 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
         <img
-          src="/slider-2.webp"
+          src="/slider-2.jpg"
           class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
           alt="..."
         />

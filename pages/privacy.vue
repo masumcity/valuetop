@@ -1,4 +1,5 @@
 <template>
+  <Breadcrumb />
   <section class="container mx-auto py-6">
     <p
       style="
