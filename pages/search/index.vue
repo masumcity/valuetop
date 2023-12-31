@@ -34,6 +34,10 @@ const route = useRoute();
 const { search, result } = useMeiliSearch('products');
 onMounted(async () => {
   await console.log(route.query.q);
-  await search('value-top' + route.query.q);
+  await search('value-top ' + route.query.q);
+});
+
+watch(() => route.query.q, async () => {
+    await search('value-top ' + route.query.q);
 });
 </script>
