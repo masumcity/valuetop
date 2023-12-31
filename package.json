@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "flowbite": "^2.2.1",
+    "nuxt-meilisearch": "^1.1.0",
     "vue-easy-lightbox": "^1.17.0"
   }
 }

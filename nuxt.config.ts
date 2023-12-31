@@ -8,5 +8,14 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  plugins: [{ src: '~/plugins/vue-easy-lightbox.js', mode: 'client' }]
+  plugins: [{ src: '~/plugins/vue-easy-lightbox.js', mode: 'client' }],
+  modules: [
+    'nuxt-meilisearch'
+  ],
+  meilisearch: {
+    hostUrl:  'https://quick.comcitybd.com/', //required
+    searchApiKey: 'RRrpdBf6vRrp2nJbWQGZWVwg5LGITU0P', // required
+    adminApiKey: 'RRrpdBf6vRrp2nJbWQGZWVwg5LGITU0P', // optional
+    serverSideUsage: true // default: false
+  }
 })
