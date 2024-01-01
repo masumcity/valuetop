@@ -1,4 +1,5 @@
 <template>
+  <Breadcrumb />
   <section class="container mx-auto py-6">
     <div class="md:flex flex-col md:flex-row">
       <div class="container mx-auto unreset lato">
