@@ -17,7 +17,11 @@
           </p>
         </div>
         <div class="md:w-1/2 mt-8 md:mt-0 flex justify-center md:justify-end">
-          <img src="/T7.png" alt="" class="" />
+          <a
+            href="https://www.valuetop.com.bd/category/product/value-top-t7-dual-chamber-micro-atx-aluminum-custom-premium-gaming-casing-w2xusb30-1xtype-c-hd-audio-double-tempered-glass-window"
+          >
+            <img src="/T7.png" alt="" class="" />
+          </a>
         </div>
       </div>
       <div
@@ -36,11 +40,15 @@
         <div
           class="flex justify-end md:absolute md:bottom-4 md:right-4 lg:bottom-0 lg:right-0"
         >
-          <img
-            src="/W1298S.png"
-            alt=""
-            class="md:w-20 md:h-20 lg:w-full lg:h-full"
-          />
+          <a
+            href="https://www.valuetop.net/category/product/value-top-w1298s-12cm-white-ring-light-static-rgb-case-fan"
+          >
+            <img
+              src="/W1298S.png"
+              alt=""
+              class="md:w-20 md:h-20 lg:w-full lg:h-full"
+            />
+          </a>
         </div>
       </div>
     </div>

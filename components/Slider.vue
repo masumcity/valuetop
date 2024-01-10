@@ -4,19 +4,28 @@
     <div class="relative h-[10rem] md:h-[48rem] overflow-hidden">
       <!-- Item 1 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
-        <img
-          src="/slider-1.jpg"
-          class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-          alt="..."
-        />
+        <a
+          href="https://www.valuetop.com.bd/category/product/value-top-27-inch-t27ifr165-full-hd-165hz-frameless-ips-led-monitor-with-metal-stand"
+        >
+          <img
+            src="/slider-1.jpg"
+            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            alt="..."
+          />
+        </a>
       </div>
       <!-- Item 2 -->
+
       <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-        <img
-          src="/slider-2.jpg"
-          class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-          alt="..."
-        />
+        <a
+          href="https://www.valuetop.com.bd/category/product/value-top-v200h-micro-atx-casing"
+        >
+          <img
+            src="/slider-2.jpg"
+            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            alt="..."
+          />
+        </a>
       </div>
       <!-- Item 3 -->
 
