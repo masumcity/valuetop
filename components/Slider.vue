@@ -1,7 +1,7 @@
 <template>
   <div id="controls-carousel" class="relative w-full" data-carousel="static">
     <!-- Carousel wrapper -->
-    <div class="relative h-[10rem] md:h-[48rem] overflow-hidden">
+    <div class="relative h-[10rem] md:h-[36rem] overflow-hidden">
       <!-- Item 1 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
         <a
