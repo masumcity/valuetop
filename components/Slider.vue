@@ -5,7 +5,7 @@
       <!-- Item 1 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
         <a
-          href="https://www.valuetop.com.bd/category/product/value-top-27-inch-t27ifr165-full-hd-165hz-frameless-ips-led-monitor-with-metal-stand"
+          href="https://www.valuetop.com.bd/category/product/value-top-t27ifr165-27-inch-full-hd-165hz-frameless-ips-led-monitor-with-metal-stand"
         >
           <img
             src="/slider-1.jpg"
