@@ -117,7 +117,7 @@
     <h1
       class="title-font sm:text-4xl text-3xl mb-4 font-medium text-center text-gray-900"
     >
-      Our Factory
+      Production Line
     </h1>
     <div class="grid grid-cols-2 md:grid-cols-3 gap-4 container mx-auto py-4">
       <div>
