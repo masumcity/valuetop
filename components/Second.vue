@@ -20,7 +20,7 @@
           <a
             href="http://localhost:3000/category/product/value-top-vt500-high-fidelity-wireless-soundbar"
           >
-            <img src="/vt500.png" alt="" class="" />
+            <NuxtPicture format="avif,webp" src="/vt500.png" />
           </a>
         </div>
       </div>

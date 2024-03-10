@@ -1,6 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: false },
+  devtools: { enabled: true },
+  modules: ['nuxt-meilisearch', '@nuxt/image'],
+  image: {
+    format: ['webp']
+  },
   css: ['~/assets/css/main.css'],
   postcss: {
     plugins: {
@@ -9,9 +13,6 @@ export default defineNuxtConfig({
     },
   },
   plugins: [{ src: '~/plugins/vue-easy-lightbox.js', mode: 'client' }],
-  modules: [
-    'nuxt-meilisearch'
-  ],
   meilisearch: {
     hostUrl:  'https://quick.comcitybd.com/', //required
     searchApiKey: 'RRrpdBf6vRrp2nJbWQGZWVwg5LGITU0P', // required
@@ -24,7 +25,7 @@ export default defineNuxtConfig({
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
       title: 'Value-Top',
-      description: 'Manufacturer Of Best Computer Accessories In Bangladesh',
+      description: 'Manufacturer Of Best Computer Accessories In Bangladesh'
     }
   }
 })
