@@ -248,6 +248,15 @@
                       Wireless Mouse
                     </NuxtLink>
                   </li>
+
+                  <li>
+                    <NuxtLink
+                      to="/category/speaker"
+                      class="text-gray-500 dark:text-gray-400 hover:text-red-600 dark:hover:text-blue-500"
+                    >
+                      Speaker
+                    </NuxtLink>
+                  </li>
                 </ul>
               </div>
               <div class="p-4"></div>

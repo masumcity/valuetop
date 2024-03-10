@@ -10,17 +10,17 @@
           <h1
             class="text-3xl lg:text-4xl font-semibold text-gray-800 dark:text-white"
           >
-            DUAL-CHAMBER
+            VT500
           </h1>
           <p class="text-base lg:text-xl text-gray-800 dark:text-white mt-2">
-            MICRO ATX <span class="font-bold">T7</span>
+            High Fidelity <span class="font-bold">Wireless Soundbar</span>
           </p>
         </div>
         <div class="md:w-1/2 mt-8 md:mt-0 flex justify-center md:justify-end">
           <a
-            href="https://www.valuetop.com.bd/category/product/value-top-t7-dual-chamber-micro-atx-aluminum-custom-premium-gaming-casing-w2xusb30-1xtype-c-hd-audio-double-tempered-glass-window"
+            href="http://localhost:3000/category/product/value-top-vt500-high-fidelity-wireless-soundbar"
           >
-            <img src="/T7.png" alt="" class="" />
+            <img src="/vt500.png" alt="" class="" />
           </a>
         </div>
       </div>
