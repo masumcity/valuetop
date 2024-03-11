@@ -38,7 +38,7 @@
             <img
               alt="gallery"
               class="w-full h-full object-cover object-center block"
-              src="/psu-banner.jpg"
+              src="/vt500-banner.jpg"
             />
           </div>
           <div class="md:p-2 p-1 w-1/2">
