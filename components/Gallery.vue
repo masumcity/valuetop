@@ -26,11 +26,15 @@
             </a>
           </div>
           <div class="md:p-2 p-1 w-full">
-            <NuxtImg
-              alt="gallery"
-              class="w-full h-full object-cover object-center block"
-              src="/big-monitor-banner.jpg"
-            />
+            <a
+              href="https://www.valuetop.com.bd/category/product/value-top-s22ifr100-215-inch-full-hd-100hz-ips-frameless-led-monitor"
+            >
+              <NuxtImg
+                alt="gallery"
+                class="w-full h-full object-cover object-center block"
+                src="/s22.jpg"
+              />
+            </a>
           </div>
         </div>
         <div class="flex flex-wrap w-full md:w-1/2">
