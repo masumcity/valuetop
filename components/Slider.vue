@@ -1,5 +1,5 @@
 <template>
-  <div id="controls-carousel" class="relative w-full" data-carousel="static">
+  <div id="controls-carousel" class="relative w-full" data-carousel="slide">
     <!-- Carousel wrapper -->
     <div class="relative h-[10rem] md:h-[48rem] overflow-hidden">
       <!-- Item 1 -->
@@ -14,11 +14,9 @@
           />
         </a>
       </div>
-
-      <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-        <a
-          href="https://www.valuetop.com.bd/category/product/value-top-v200h-micro-atx-casing"
-        >
+      <!-- Item 2 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <a href="https://www.valuetop.com.bd/category/casing">
           <img
             src="/slider-2.jpg"
             class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
@@ -26,7 +24,14 @@
         </a>
       </div>
       <!-- Item 3 -->
-
+      <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+        <a href="https://www.valuetop.com.bd/search?q=mloong">
+          <img
+            src="/mloong.webp"
+            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+          />
+        </a>
+      </div>
       <!-- Item 4 -->
 
       <!-- Item 5 -->
