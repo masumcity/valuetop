@@ -1,14 +1,14 @@
 <template>
-  <div id="controls-carousel" class="relative w-full" data-carousel="slide">
+  <div id="controls-carousel" class="relative w-full z-0" data-carousel="slide">
     <!-- Carousel wrapper -->
     <div class="relative h-[10rem] md:h-[48rem] overflow-hidden">
       <!-- Item 1 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
         <a
-          href="https://www.valuetop.com.bd/category/product/value-top-t27ifr165-27-inch-full-hd-165hz-frameless-ips-led-monitor-with-metal-stand"
+          href="https://www.valuetop.com.bd/category/product/value-top-ax700-real-700-watt-82-efficiency-apfc-power-supply"
         >
           <img
-            src="/slider-1.jpg"
+            src="/ax700.jpg"
             class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             alt="..."
           />
