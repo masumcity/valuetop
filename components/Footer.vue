@@ -66,10 +66,11 @@
         </div>
       </div>
       <hr
-        class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"
+      />
       <div class="sm:flex sm:items-center sm:justify-between">
         <span class="text-sm sm:text-center text-white"
-          >© 2023
+          >© 2024
           <a href="https://valuetop.com.bd/" class="hover:underline">
             Value-Top™
           </a>
