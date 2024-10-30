@@ -16,7 +16,7 @@
           </div>
           <div class="md:p-2 p-1 w-1/2">
             <a
-              href="https://www.valuetop.com.bd/category/product/value-top-v300w-micro-atx-compact-gaming-casing"
+              href="https://www.valuetop.com.bd/category/product/value-top-v300w-dual-chamber-full-white-micro-atx-compact-gaming-casing"
             >
               <NuxtImg
                 alt="gallery"
