@@ -138,10 +138,10 @@
 
                   <li>
                     <NuxtLink
-                      to="/category/speaker"
+                      to="/category/allinone"
                       class="text-gray-500 dark:text-gray-400 hover:text-red-600 dark:hover:text-blue-500"
                     >
-                      Speaker
+                      All In One
                     </NuxtLink>
                   </li>
                 </ul>
