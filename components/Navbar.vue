@@ -138,7 +138,7 @@
 
                   <li>
                     <NuxtLink
-                      to="/category/allinone"
+                      to="/category/all-in-one"
                       class="text-gray-500 dark:text-gray-400 hover:text-red-600 dark:hover:text-blue-500"
                     >
                       All In One
