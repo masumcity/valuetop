@@ -7,7 +7,8 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
@@ -24,5 +25,8 @@
     "flowbite": "^2.3.0",
     "nuxt-meilisearch": "^1.1.0",
     "vue-easy-lightbox": "^1.17.0"
+  },
+  "engines": {
+    "node": "20.x"
   }
 }
